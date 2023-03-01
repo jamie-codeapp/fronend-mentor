@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+/* Variables */
+:root {
+  --highlight-font-family: 'Fraunces', serif;
+  --general-font-family: 'Montserrat', sans-serif;
+  --primary-color: hsl(158, 36%, 37%);
+  --bg-color: hsl(30, 38%, 92%);
+  --secondary-color: hsl(212, 21%, 14%);
+  --text-color: hsl(228, 12%, 48%);
+  --white-color: hsl(0, 0%, 100%);
+  --hover-color: #1a4031;
+}
+
+/* Main styling */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--general-font-family);
+  font-size: 1.4rem;
+  font-weight: 400;
+  background: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Utility classes */
+.highlight-text {
+  font-family: var(--highlight-font-family);
+  font-size: 2.9rem;
+  font-weight: 700;
+}
+
+/* Card */
+.card {
+  background: var(--white-color);
+  border-radius: 1rem;
+  max-width: 34.5rem;
+  width: 90%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  background: url('../images/image-product-mobile.jpg') no-repeat center center/cover;
+  max-width: 100%;
+  height: 24rem;
+}
+
+.card-content {
+  padding: 2.6rem;
+}
+
+.card-content__category {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.7rem;
+}
+
+.card-content__title {
+  color: var(--secondary-color);
+  margin: 1.2rem 0;
+}
+
+.card-content__text {
+  line-height: 2.2rem;
+}
+
+.card-content__price {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-content__price--main {
+  vertical-align: middle;
+  color: var(--primary-color);
+  margin-right: 2rem;
+}
+
+.card-content__price--remove {
+  text-decoration: line-through;
+}
+
+.card-button {
+  background: var(--primary-color);
+  color: var(--white-color);
+  border-radius: 1rem;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.card-button:hover {
+  background: #1a4031;
+}
+
+.card-button > img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 1rem;
+}

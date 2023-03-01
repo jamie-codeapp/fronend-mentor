@@ -1,0 +1,24 @@
+.card {
+  max-width: 60rem;
+  flex-direction: row;
+}
+
+.card-image {
+  background: url('../images/image-product-desktop.jpg') no-repeat center center/cover;
+  width: 50%;
+  height: auto;
+}
+
+.card-content {
+  width: 50%;
+  padding: 3.5rem;
+}
+
+.card-content__title {
+  margin: 2rem 1.5rem 2rem 0;
+}
+
+.card-content__price {
+  margin-top: 2.6rem;
+  margin-bottom: 2.6rem;
+}
