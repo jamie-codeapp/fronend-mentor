@@ -15,3 +15,10 @@ This is a list of my projects.
 
 - Solution URL: [https://github.com/jamie-codeapp/fronend-mentor/tree/main/profile-card-component](https://github.com/jamie-codeapp/fronend-mentor/tree/main/profile-card-component)
 - Live Site URL: [https://jamie-codeapp.github.io/fronend-mentor/profile-card-component/](https://jamie-codeapp.github.io/fronend-mentor/profile-card-component/)
+
+## Product preview card component
+
+### Links
+
+- Solution URL: [https://github.com/jamie-codeapp/fronend-mentor/tree/main/product-preview-card-component](https://github.com/jamie-codeapp/fronend-mentor/tree/main/product-preview-card-component)
+- Live Site URL: [https://jamie-codeapp.github.io/fronend-mentor/product-preview-card-component/](https://jamie-codeapp.github.io/fronend-mentor/product-preview-card-component/)
