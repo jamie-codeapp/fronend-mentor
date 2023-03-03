@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* Variables */
+:root {
+  --primary-bg-color-hsl: 225 100% 94%;
+  --secondary-bg-color-hsl: 225 100% 98%;
+  --highlight-color-hsl: 245 75% 52%;
+  --primary-text-color-hsl: 223 47% 23%;
+  --secondary-text-color-hsl: 224 23% 55%;
+  --link-active-color-hsl: 245 83% 68%;
+  --white-color-hsl: 0 0% 100%;
+}
+
+/* Main styling */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background: hsl(var(--primary-bg-color-hsl));
+  color: hsl(var(--secondary-text-color-hsl));
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Utility classes */
+.button {
+  padding: 1.4rem;
+}
+
+/* Card */
+.card {
+  background: hsl(var(--white-color-hsl));
+  max-width: 33rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__hero {
+  background: url(../images/illustration-hero.svg) center center/cover;
+  height: 16rem;
+}
+
+.card__title {
+  font-size: 2.1rem;
+  font-weight: 900;
+  color: hsl(var(--primary-text-color-hsl));
+  margin: 3rem 2.5rem 1.8rem;
+}
+
+.card__text {
+  margin: 0 3rem;
+  line-height: 1.6;
+}
+
+.card__plan {
+  background: hsl(var(--secondary-bg-color-hsl));
+  border-radius: 1rem;
+  padding: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.3rem 2.5rem;
+}
+
+.card__plan p {
+  margin: 0 2rem;
+  width: 100%;
+  text-align: left;
+}
+
+.card__plan p span {
+  font-weight: 700;
+  color: hsl(var(--primary-text-color-hsl));
+}
+
+.card__plan a,
+.card__plan a:visited {
+  font-size: 1.2rem;
+  color: hsl(var(--highlight-color-hsl));
+  text-decoration: underline;
+  transition: all 0.2s;
+}
+
+.card__plan a:hover,
+.card__plan a:active {
+  color: hsl(var(--link-active-color-hsl));
+  text-decoration: none;
+}
+
+.card__button--proceed,
+.card__button--proceed:visited {
+  background: hsl(var(--highlight-color-hsl));
+  color: hsl(var(--white-color-hsl));
+  border-radius: 1rem;
+  margin: 0 2.5rem;
+  transition: all 0.2s;
+  box-shadow: 0 2rem 2rem hsl(var(--highlight-color-hsl) / 0.2);
+}
+
+.card__button--proceed:hover,
+.card__button--proceed:active {
+  background: hsl(var(--link-active-color-hsl));
+  box-shadow: 0 2rem 2rem hsl(var(--link-active-color-hsl) / 0.2);
+}
+
+.card__button--cancel,
+.card__button--cancel:visited {
+  color: hsl(var(--secondary-text-color-hsl));
+  margin: 1rem 2.5rem 2rem;
+  transition: all 0.2s;
+}
+
+.card__button--cancel:hover,
+.card__button--cancel:active {
+  color: hsl(var(--primary-text-color-hsl));
+}

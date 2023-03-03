@@ -22,3 +22,10 @@ This is a list of my projects.
 
 - Solution URL: [https://github.com/jamie-codeapp/fronend-mentor/tree/main/product-preview-card-component](https://github.com/jamie-codeapp/fronend-mentor/tree/main/product-preview-card-component)
 - Live Site URL: [https://jamie-codeapp.github.io/fronend-mentor/product-preview-card-component/](https://jamie-codeapp.github.io/fronend-mentor/product-preview-card-component/)
+
+## Order summary component
+
+### Links
+
+- Solution URL: [https://github.com/jamie-codeapp/fronend-mentor/tree/main/order-summary-component](https://github.com/jamie-codeapp/fronend-mentor/tree/main/order-summary-component)
+- Live Site URL: [https://jamie-codeapp.github.io/fronend-mentor/order-summary-component/](https://jamie-codeapp.github.io/fronend-mentor/order-summary-component/)
