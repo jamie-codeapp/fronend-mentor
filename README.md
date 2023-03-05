@@ -29,3 +29,10 @@ This is a list of my projects.
 
 - Solution URL: [https://github.com/jamie-codeapp/fronend-mentor/tree/main/order-summary-component](https://github.com/jamie-codeapp/fronend-mentor/tree/main/order-summary-component)
 - Live Site URL: [https://jamie-codeapp.github.io/fronend-mentor/order-summary-component/](https://jamie-codeapp.github.io/fronend-mentor/order-summary-component/)
+
+## Results summary component
+
+### Links
+
+- Solution URL: [https://github.com/jamie-codeapp/fronend-mentor/tree/main/results-summary-component](https://github.com/jamie-codeapp/fronend-mentor/tree/main/results-summary-component)
+- Live Site URL: [https://jamie-codeapp.github.io/fronend-mentor/results-summary-component/](https://jamie-codeapp.github.io/fronend-mentor/results-summary-component/)

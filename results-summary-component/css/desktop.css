@@ -1,0 +1,54 @@
+/* Main styling */
+body {
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Wrapper */
+.wrapper {
+  max-width: 74rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 2rem 2rem 2rem hsla(var(--pale-blue-hsl) / 1);
+  border-radius: 3rem;
+}
+
+/* Section: Result */
+.result {
+  border-radius: 3rem;
+  gap: 0;
+  padding: 4.5rem 7rem;
+}
+
+.result > h1 {
+  font-size: 2.4rem;
+}
+
+.result__circle {
+  width: 20rem;
+  height: 20rem;
+}
+
+.result__circle > p:nth-child(1) {
+  font-size: 6.3rem;
+}
+
+.result > h2 {
+  font-size: 2.8rem;
+}
+
+/* Section: Summary */
+.summary {
+  gap: 3rem;
+  padding: 4.5rem 4rem;
+}
+
+.summary > h2 {
+  font-size: 2.4rem;
+}
+
+.items {
+  gap: 1.7rem;
+}
