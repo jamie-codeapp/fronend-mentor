@@ -36,3 +36,8 @@ This is a list of my projects.
 
 - Solution URL: [https://github.com/jamie-codeapp/fronend-mentor/tree/main/results-summary-component](https://github.com/jamie-codeapp/fronend-mentor/tree/main/results-summary-component)
 - Live Site URL: [https://jamie-codeapp.github.io/fronend-mentor/results-summary-component/](https://jamie-codeapp.github.io/fronend-mentor/results-summary-component/)
+
+## 3-column preview card component
+
+- Solution URL: [https://github.com/jamie-codeapp/fronend-mentor/tree/main/3-column-preview-card-component](https://github.com/jamie-codeapp/fronend-mentor/tree/main/3-column-preview-card-component)
+- Live Site URL: [https://jamie-codeapp.github.io/fronend-mentor/3-column-preview-card-component/](https://jamie-codeapp.github.io/fronend-mentor/3-column-preview-card-component/)

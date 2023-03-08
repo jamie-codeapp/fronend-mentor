@@ -1,0 +1,8 @@
+.cards {
+  max-width: 92rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card_button {
+  margin-top: 5.5rem;
+}
